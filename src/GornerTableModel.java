@@ -54,7 +54,7 @@ public class GornerTableModel extends AbstractTableModel {
                 result1 = temp * x;
             }
             result1 += coefficients[coefficients.length - 1];
-            if(result1 % 1 <= 0.1)
+            if(result1 % 1 < 0.1)
                 return 1;
             else
                 return 0;
