@@ -1,6 +1,6 @@
 import javax.swing.table.AbstractTableModel;
 import java.math.*;
-@SuppressWarnings("serial")
+
 public class GornerTableModel extends AbstractTableModel {
     private Double[] coefficients;
     private Double from;

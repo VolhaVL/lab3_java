@@ -7,7 +7,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.ImageIcon;
 
-@SuppressWarnings("serial")
 public class AboutFrame extends JFrame {
     static final int WIDTH=340;
     static final int HEIGHT=300;
